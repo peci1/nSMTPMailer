@@ -15,7 +15,7 @@ $client->setLoginInfo('username', 'password');
 
 $client->setFrom('username@gmail.com');
 
-$recipients = array('peci1@seznam.cz', 'j.jhg@seznam.cz');
+$recipients = array('user1@seznam.cz', 'user2@seznam.cz');
 $client->setRecipients($recipients);
 
 $client->setBody('Very dirty message without headers in it!');

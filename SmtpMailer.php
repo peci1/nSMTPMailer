@@ -74,15 +74,20 @@ class SmtpMailer implements IMailer
      * @param string|NULL $username The username to use to login, if needed
      * @param string|NULL $password The password to use to login, if needed
      * @param string|NULL $authId The role to use in PLAIN authentication
+     * @param string|NULL $mechanism The mechanism to use (defaults to LOGIN)
+     * @param bool $tryUnauthenticated If true, tries to send the message even
+     *                                 if authentication fails
      * @return void
      */
     public function __construct($server, $port = 25, $transport = 'tcp', 
-        $username = NULL, $password = NULL, $authId = NULL)
+        $username = NULL, $password = NULL, $authId = NULL, 
+        $mechanism = NULL, $tryUnauthenticated = TRUE)
     {
         $this->client = new SMTPClient();
         $this->client->setConnectionInfo($server, $port, $transport, 300);
         if ($username != NULL) //intentionally !=
-            $this->client->setLoginInfo($username, $password);
+            $this->client->setLoginInfo($username, $password, $authId,
+                $mechanism, $tryUnauthenticated);
     }
 
     /**
