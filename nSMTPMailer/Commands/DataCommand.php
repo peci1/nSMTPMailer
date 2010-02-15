@@ -198,7 +198,8 @@ class /*Nette\Mail\SMTPClient\*/DataCommand extends
             if (strlen($text) > self::MAX_LINE_LENGTH) {
                 $command[$line] = str_split($text, self::MAX_LINE_LENGTH);
                 $wasLongLine = TRUE;
-            } else if ($text[0] == '.') $command[$line] = '.' . $text;
+            } else if (strlen($text) > 0 && $text[0] == '.') 
+                $command[$line] = '.' . $text;
         }
 
         if ($wasLongLine) {

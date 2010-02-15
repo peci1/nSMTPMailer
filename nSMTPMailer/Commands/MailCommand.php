@@ -114,7 +114,7 @@ class /*Nette\Mail\SMTPClient\*/MailCommand extends
     protected $acceptedExtensions = array('SIZE', '8BITMIME');
 
     /** @var string String used for the SIZE extension */
-    protected $sizeExtension = ' SIZE %u';
+    protected $sizeExtension = ' SIZE=%u';
 
     /** @var NULL|int Size of the message to be sent (used by SIZE extension)*/
     protected $emailSize = NULL;
