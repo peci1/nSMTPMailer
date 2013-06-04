@@ -1,0 +1,47 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+#
+# If you don't protect this directory from direct web access, anybody will be able to see your passwords.
+# http://nette.org/security-warning
+#
+common:
+	parameters:
+		# these are needed for nSMTPMailer to work
+		mailer:
+			username: 'username'
+			password: 'password'
+			host: 'smtp.gmail.com'
+			port: 587 #This is GMail over TLS, use 465 for SSL or 25 for no security
+			from: 'sender@gmail.com'
+			fromName: 'John Doe Sender'
+			transport: 'tcp' #TLS will be autodetected and used if possible
+
+	php:
+		date.timezone: Europe/Prague
+
+	nette:
+		application:
+			errorPresenter: Error
+
+		routing:
+			routes:
+				index.php: Default:default
+				'<presenter>/<action>[/<id>]': Default:default
+				
+	services:
+		# this is needed for nSMTPMailer to work
+		nette.mailer:
+			class: Nette\Mail\SMTP\SmtpMailer
+			arguments: [%mailer.host%, %mailer.port%, %mailer.transport%, %mailer.username%, %mailer.password%]
+			#or this to disable usage of TLS on servers that support it but it is not desirable to use it
+			#arguments: [%mailer.host%, %mailer.port%, %mailer.transport%, %mailer.username%, %mailer.password%, null, null, false, true]
+
+	factories:
+		# this is needed for nSMTPMailer to correctly set the sender's address
+		nette.mail:
+			setup:
+				- setFrom(%mailer.from%, %mailer.fromName%)
+
+production < common:
+
+development < common:

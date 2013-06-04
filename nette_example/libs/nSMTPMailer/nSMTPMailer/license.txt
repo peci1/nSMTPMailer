@@ -1,0 +1,57 @@
+Copyright (c) 2009, Martin Pecka (peci1@seznam.cz)
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name Martin Pecka nor the
+      names of contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+
+Copyright (c) 2009, Martin Pecka (peci1@seznam.cz)
+Všechna práva vyhrazena.
+
+Redistribuce a pouití zdrojovıch i binárních forem díla, v pùvodním i 
+upravovaném tvaru, jsou povoleny za následujících podmínek:
+    * Šíøenı zdrojovı kód musí obsahovat vıše uvedenou informaci o copyrightu, 
+      tento seznam podmínek a níe uvedené zøeknutí se odpovìdnosti.
+    * Šíøenı binární tvar musí nést vıše uvedenou informaci o copyrightu, tento
+      seznam podmínek a níe uvedené zøeknutí se odpovìdnosti ve své 
+      dokumentaci a/nebo dalších poskytovanıch materiálech.
+    * Ani jméno vlastníka práv, ani jména pøispìvatelù nemohou bıt pouita pøi 
+      podpoøe nebo právních aktech souvisejících s produkty odvozenımi z 
+      tohoto software bez vıslovného písemného povolení.
+
+TENTO SOFTWARE JE POSKYTOVÁN DRITELEM LICENCE A JEHO PØISPÌVATELI „JAK STOJÍ A
+LEÍ“ A JAKÉKOLIV VİSLOVNÉ NEBO PØEDPOKLÁDANÉ ZÁRUKY VÈETNÌ, ALE NEJEN, 
+PØEDPOKLÁDANİCH OBCHODNÍCH ZÁRUK A ZÁRUKY VHODNOSTI PRO JAKİKOLIV ÚÈEL JSOU 
+POPØENY. DRITEL, ANI PØISPÌVATELÉ NEBUDOU V ÁDNÉM PØÍPADÌ ODPOVÌDNI ZA 
+JAKÉKOLIV PØÍMÉ, NEPØÍMÉ, NÁHODNÉ, ZVLÁŠTNÍ, PØÍKLADNÉ NEBO VYPLİVAJÍCÍ ŠKODY
+(VÈETNÌ, ALE NEJEN, ŠKOD VZNIKLİCH NARUŠENÍM DODÁVEK ZBOÍ NEBO SLUEB; ZTRÁTOU
+POUITELNOSTI, DAT NEBO ZISKÙ; NEBO PØERUŠENÍM OBCHODNÍ ÈINNOSTI) JAKKOLIV 
+ZPÙSOBENÉ NA ZÁKLADÌ JAKÉKOLIV TEORIE O ZODPOVÌDNOSTI, A U PLYNOUCÍ Z JINÉHO 
+SMLUVNÍHO VZTAHU, URÈITÉ ZODPOVÌDNOSTI NEBO PØEÈINU (VÈETNÌ NEDBALOSTI) NA 
+JAKÉMKOLIV ZPÙSOBU POUITÍ TOHOTO SOFTWARE, I V PØÍPADÌ, E DRITEL PRÁV BYL 
+UPOZORNÌN NA MONOST TAKOVİCH ŠKOD.
+
+-------------------------------------------------------------------------------
+
+V krátkosti - neodstraòujte ze souborù copyright a šiøte a modifikujte dle 
+libosti. I komerènì. Tato licence je kompatibilní s vìtšinou dalších (i GPL)
