@@ -2,6 +2,8 @@
 
 namespace Nette\Mail\SMTP;
 
+use \InvalidArgumentException;
+
 /**
  * This is a response from the SMTP server
 
