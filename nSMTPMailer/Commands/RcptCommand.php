@@ -2,6 +2,7 @@
 
 namespace Nette\Mail\SMTP;
 
+use \InvalidArgumentException;
 use \Nette\InvalidStateException;
 use \Nette\IOException;
 
