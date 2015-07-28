@@ -193,7 +193,8 @@ class DataCommand extends BaseCommand
         $command = $this->command;
         //should be done by the mail creating procedure
         //$command = mb_convert_encoding($command, '7BIT', 'UTF-8');        
-        $command = preg_split("/\r\n/", $command);
+        $command = str_replace("\r\n", "\n", $command);
+        $command = preg_split("/\n/", $command);
 
         $wasLongLine = FALSE;
         foreach ($command as $line => $text) {            
